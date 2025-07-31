@@ -57,6 +57,18 @@
         a:hover {
             text-decoration: underline;
         }
+        
+        .secret-content {
+            filter: blur(3px);
+            opacity: 0.7;
+            transition: all 0.3s ease;
+            cursor: pointer;
+        }
+        
+        .secret-content:hover {
+            filter: blur(0px);
+            opacity: 1;
+        }
     </style>
 </head>
 <body>
@@ -64,18 +76,20 @@
     
     <h2>AI-native interfaces for the modern web.</h2>
     
-    <p>We're building tools that make websites smarter, more conversational, interactive, and helpful by default.</p>
-    
-    <p>We're exploring how language models are changing how people interact with the web through chat, search, and agentic workflows.</p>
-    
-    <h3>Some of our early experiments focus on:</h3>
-    <ul>
-        <li>Embedding natural language interfaces into existing sites</li>
-        <li>Turning static content into searchable, interactive knowledge</li>
-        <li>Making it easy to add AI capabilities without rewriting your frontend</li>
-    </ul>
-    
-    <p>We're still early. We're shipping fast and building the foundation for a more intuitive web.</p>
+    <div class="secret-content">
+        <p>We're building tools that make websites smarter, more conversational, interactive, and helpful by default.</p>
+        
+        <p>We're exploring how language models are changing how people interact with the web through chat, search, and agentic workflows.</p>
+        
+        <h3>Some of our early experiments focus on:</h3>
+        <ul>
+            <li>Embedding natural language interfaces into existing sites</li>
+            <li>Turning static content into searchable, interactive knowledge</li>
+            <li>Making it easy to add AI capabilities without rewriting your frontend</li>
+        </ul>
+        
+        <p>We're still early. We're shipping fast and building the foundation for a more intuitive web.</p>
+    </div>
     
     <p><a href="https://x.com/tokifyi">→ say hi on x</a></p>
     
